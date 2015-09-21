@@ -51,7 +51,7 @@ def end_handler(cur_id,cur_tag,last_id,num_dent):
     return True,cur_id
     #return newState
 
-def parse_dimension(line)
+def parse_dimension(line):
     IsPureComment, description_pos = desp_pos(line)
     
 
